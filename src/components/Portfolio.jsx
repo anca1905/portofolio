@@ -30,16 +30,16 @@ const Portfolio = () => {
           img={mockup}
           title={"My Portfolio"}
           description={
-            "Landing page for travel business website with information about package tours and a connection to social media and WhatsApp admin."
+            "I built this web portfolio to demonstrate my web development skills. In it, you'll find a variety of projects I've created."
           }
           icon={<TiHtml5 />}
           icon_2={<RiTailwindCssFill />}
           icon_3={<FaReact />}
           icon_4={<SiJavascript className=" text-yellow-400" />}
           classnameIconB={"hidden"}
-          link={"https://riskymahendraa.github.io/travelAku-landing-page/"}
+          link={"https://anca1905.github.io/portofolio/"}
           link_github={
-            "https://github.com/riskymahendraa/travelAku-landing-page"
+            "https://github.com/anca1905/portofolio"
           }
         />
 

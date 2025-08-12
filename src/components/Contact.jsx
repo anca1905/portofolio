@@ -29,17 +29,17 @@ const Contact = () => {
                   <CiMail className="text-4xl my-2 mx-auto bg-orange-500 rounded-full p-2" />
                 </div>
                 <div className="text-base md:text-xl">
-                  riskymahendra52@gmail.com
+                  arsyadhijrah49720@gmail.com
                 </div>
                 <div>
                   <FaWhatsapp className="text-4xl my-2 mx-auto bg-orange-500 rounded-full p-2" />
                 </div>
-                <div className="text-base md:text-xl">+6281-237-258-566</div>
+                <div className="text-base md:text-xl">+6282-291-700-778</div>
                 <div>
                   <SiGooglemaps className="text-4xl my-2 mx-auto bg-orange-500 rounded-full p-2" />
                 </div>
                 <div className="text-base items-start md:text-lg">
-                  Jl. Tukad Sangsang 37/1 BTN Sanggulan, <br /> Kediri, Tabanan
+                  Desa Pabiring, <br /> Poleang Barat, Bombana
                 </div>
               </div>
               <ContactForm />
@@ -50,7 +50,7 @@ const Contact = () => {
               className="p-4 my-4 mx-auto"
             >
               <Iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1324.6298113465036!2d115.14067508499383!3d-8.535688366594385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sid!4v1730824814241!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4892.666397374092!2d121.515895575853!3d-4.724433149051761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbd31003ac30ee9%3A0xf1179c26894c5b99!2skantor%20skillance.id!5e1!3m2!1sid!2sid!4v1754970699722!5m2!1sid!2sid"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
