@@ -24,7 +24,7 @@ const Card = (props) => {
       className={`card card-compact bg-base-100 w-72 my-2 ${classname} mx-auto shadow-xl`}
     >
       <figure>
-        <img src={img} alt="Shoes" />
+        <img src={img}zxalt="Shoes" />
       </figure>
       <div className="relative card-body bg-neutral-900 h-full">
         <h2 className="card-title text-2xl">{title}</h2>
