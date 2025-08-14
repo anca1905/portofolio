@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import EducationLayout from "./components/EducationLayout";
 import Footer from "./components/Footer";
@@ -19,6 +20,7 @@ function App() {
         <About />
         <EducationLayout />
         <Technologies />
+        <Certifications />
         <Portfolio />
         <Contact />
         <Footer />
