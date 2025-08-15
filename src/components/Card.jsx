@@ -24,7 +24,7 @@ const Card = (props) => {
       className={`card card-compact bg-base-100 w-72 my-2 ${classname} mx-auto shadow-xl`}
     >
       <figure>
-        <img src={img}zxalt="Shoes" />
+        <img src={img} zxalt="Shoes" />
       </figure>
       <div className="relative card-body bg-neutral-900 h-full">
         <h2 className="card-title text-2xl">{title}</h2>
@@ -55,23 +55,25 @@ const Card = (props) => {
           </div>
         </div>
         <div className="absolute bottom-5 right-3 card-actions">
+          {/* Tombol GitHub selalu tampil */}
           <a href={link_github} rel="noopener noreferrer" target="_blank">
             <Button
-              classname={
-                "bg-orange-500 hover:bg-orange-400 rounded-full hover:scale-105 hover:transition-all hover:duration-300"
-              }
+              classname="bg-orange-500 hover:bg-orange-400 rounded-full hover:scale-105 hover:transition-all hover:duration-300"
               text={<FaGithub className="text-2xl text-black" />}
             />
           </a>
-          <a href={link} rel="noopener noreferrer" target="_blank">
-            <Button
-              classname={
-                "bg-orange-500 text-black hover:bg-orange-400 hover:scale-105 hover:transition-all hover:duration-300"
-              }
-              text={<FaEye className="text-2xl text-black" />}
-            />
-          </a>
+
+          {/* Tombol FaEye cuma tampil kalau link ada */}
+          {link && link !== "/" && (
+            <a href={link} rel="noopener noreferrer" target="_blank">
+              <Button
+                classname="bg-orange-500 text-black hover:bg-orange-400 hover:scale-105 hover:transition-all hover:duration-300"
+                text={<FaEye className="text-2xl text-black" />}
+              />
+            </a>
+          )}
         </div>
+
       </div>
     </div>
   );
