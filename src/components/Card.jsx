@@ -55,20 +55,22 @@ const Card = (props) => {
           </div>
         </div>
         <div className="absolute bottom-5 right-3 card-actions">
-          {/* Tombol GitHub selalu tampil */}
-          <a href={link_github} rel="noopener noreferrer" target="_blank">
-            <Button
-              classname="bg-orange-500 hover:bg-orange-400 rounded-full hover:scale-105 hover:transition-all hover:duration-300"
-              text={<FaGithub className="text-2xl text-black" />}
-            />
-          </a>
+          {/* PERBAIKAN UTAMA: Bungkus dengan logika IF (&&) */}
+          {link_github && (
+            <a href={link_github} rel="noopener noreferrer" target="_blank">
+              <Button
+                classname="bg-slate-700 hover:bg-slate-600 rounded-full hover:scale-105 transition-all duration-300"
+                text={<FaGithub className="text-xl text-white" />}
+              />
+            </a>
+          )}
 
-          {/* Tombol FaEye cuma tampil kalau link ada */}
+          {/* Tombol Demo (FaEye) */}
           {link && link !== "/" && (
             <a href={link} rel="noopener noreferrer" target="_blank">
               <Button
-                classname="bg-orange-500 text-black hover:bg-orange-400 hover:scale-105 hover:transition-all hover:duration-300"
-                text={<FaEye className="text-2xl text-black" />}
+                classname="bg-orange-500 text-black hover:bg-orange-400 hover:scale-105 transition-all duration-300"
+                text={<FaEye className="text-xl text-black" />}
               />
             </a>
           )}

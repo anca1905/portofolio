@@ -9,6 +9,7 @@ const EducationLayout = (props) => {
       once: true,
     });
   }, []);
+
   return (
     <div>
       <div
@@ -21,36 +22,39 @@ const EducationLayout = (props) => {
           Education
         </h1>
         <div className="relative w-full md:w-1/2 border-l-2 border-slate-800 mx-auto lg:mx-72">
-          
+
           {/* Universitas Sembilan Belas November Kolaka */}
+          {/* Fokus: Sebutkan spesialisasi mata kuliah (Software Engineering/Database) */}
           <Education
             title={"Universitas Sembilanbelas November Kolaka"}
-            description2={"Kolaka, Indonesia"}
+            description2={"Bachelor of Information Systems | 2022 - Present"}
             description={
-              "Currently pursuing a Bachelor's degree in Information Systems (Semester 7). Focused on web development and information technology."
+              "Final year student focusing on Software Engineering and Database Management. Actively implementing coursework into real-world projects like Web Development and System Analysis."
             }
           />
           <div className="absolute top-5 -left-3 p-2 w-0.5 border-2 border-orange-400 rounded-full bg-slate-800"></div>
 
           {/* Pertukaran Mahasiswa Universitas Airlangga */}
+          {/* Fokus: Sebutkan 'Awardee' agar terdengar prestisius & kemampuan adaptasi */}
           <div className="relative">
             <Education
               title={"Universitas Airlangga"}
-              description2={"Surabaya, Indonesia"}
+              description2={"Student Exchange Program (PMM Batch 4) | 2024"}
               description={
-                "Participate in the Merdeka Student Exchange Program Batch 4 in 2024 to broaden academic and cultural experiences."
+                "Selected as an awardee for the National Merdeka Student Exchange Program. Gained cross-cultural adaptability and expanded academic perspective at one of Indonesia's top universities."
               }
             />
             <div className="absolute top-5 -left-3 p-2 w-0.5 border-2 border-orange-400 rounded-full bg-slate-800"></div>
           </div>
 
           {/* SMK Negeri 03 Bombana */}
+          {/* Fokus: Fondasi teknis */}
           <div className="relative">
             <Education
               title={"SMK Negeri 03 Bombana"}
-              description2={"Bombana, Indonesia"}
+              description2={"Computer & Network Engineering | 2019 - 2022"}
               description={
-                "Graduated in 2022 with a major in Computer and Network Engineering (Teknik Komputer dan Jaringan)."
+                "Built a strong technical foundation in Network Infrastructure and Basic Programming Logic, graduating with excellent competency in troubleshooting."
               }
             />
             <div className="absolute top-5 -left-3 p-2 w-0.5 border-2 border-orange-400 rounded-full bg-slate-800"></div>

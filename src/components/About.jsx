@@ -25,21 +25,20 @@ const About = () => {
         <div className="flex justify-center items-center font-light tracking-tight text-sm md:text-base">
           <p>
             Hello, my name is{" "}
-            <span className="text-orange-500 font-bold">Muh Arsyad Ramsi</span>.  
-            I am currently a 7th-semester university student majoring in Information Technology, 
-            and I am doing my internship at{" "}
-            <span className="text-orange-500 font-bold">Techno’s Studio Kendari</span>  
-            in the Technology Division as a Web Developer.  
-            I have a deep interest in web development, especially in back-end technologies, 
-            and I enjoy building functional, efficient, and scalable web applications.
+            <span className="text-orange-500 font-bold">Muh Arsyad Ramsi</span>.
+            I am a passionate Web Developer specializing in the <span className="text-orange-500 font-bold">Laravel and Vue.js</span> ecosystem.
+            Currently applying my skills professionally at{" "}
+            <span className="text-orange-500 font-bold">Techno’s Studio Kendari</span>,
+            I focus on building robust backend architectures and seamless frontend interactions.
+            I believe that good code isn't just about function—it's about scalability and clean structure.
           </p>
         </div>
         <div className="flex justify-center items-center font-light tracking-tight text-sm md:text-base">
           <p>
-            My current goal is to continue learning, enhancing my technical skills, 
-            and contributing to real-world projects that have an impact.  
-            I am committed to delivering high-quality work, collaborating effectively in teams, 
-            and always meeting deadlines with good time management.
+            Beyond the syntax, I value <span className="text-orange-500 font-bold">collaboration and adaptability</span>.
+            Whether it's integrating modern tools to optimize workflows or solving complex bugs with a team,
+            I thrive in dynamic environments. My goal is to contribute to impactful projects that require
+            both technical precision and creative problem-solving.
           </p>
         </div>
         <div>

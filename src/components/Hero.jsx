@@ -10,16 +10,20 @@ const Hero = () => {
         <h1 className="text-2xl font-light">
           MUH <span className="text-orange-500 tracking-wide">ARSYAD</span> RAMSI
         </h1>
+
+        {/* UPDATED: Headline lebih spesifik ke skill utama */}
         <div className="my-2 font-bold tracking-wide">
-          Web Developer | Intern at Techno’s Studio Kendari
+          Junior Web Developer | Laravel & Vue.js Specialist
         </div>
+
+        {/* UPDATED: Deskripsi lebih padat & menjual */}
         <div className="my-3">
-          I’m Muh Arsyad Ramsi, a 7th-semester university student majoring in 
-          Information Technology, currently interning at Techno’s Studio Kendari 
-          in the Technology Division as a Web Developer. Passionate about creating 
-          and developing web applications, with a strong interest in back-end development 
-          and continuous learning.
+          Passionate about building scalable web applications with clean code.
+          Currently applying my skills in <b>Fullstack Development</b> to solve real-world problems
+          as an Intern at <b>Techno’s Studio</b>. I am dedicated to continuous learning
+          in backend engineering and system architecture.
         </div>
+
         <a href={myResume} download>
           <Button
             text={"Download CV"}
