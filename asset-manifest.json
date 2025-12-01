@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.dd68a3a7.css",
-    "main.js": "/portofolio/static/js/main.c8a2b9b3.js",
+    "main.css": "/portofolio/static/css/main.57537334.css",
+    "main.js": "/portofolio/static/js/main.c33ad82a.js",
     "static/js/453.86b2f617.chunk.js": "/portofolio/static/js/453.86b2f617.chunk.js",
     "static/media/image-1.jpg": "/portofolio/static/media/image-1.efbad84c51d784f3184f.jpg",
+    "static/media/maxcell.png": "/portofolio/static/media/maxcell.5c998720150808a53073.png",
     "static/media/javalearn.png": "/portofolio/static/media/javalearn.dfb0d1915ceb9b809d03.png",
     "static/media/portofolio.png": "/portofolio/static/media/portofolio.e30931f5ea27bcdd6f28.png",
     "static/media/absensi.png": "/portofolio/static/media/absensi.5f38c9efc0b4b8f6aa85.png",
+    "static/media/simadun.png": "/portofolio/static/media/simadun.a7799e1532b47e8854de.png",
+    "static/media/siap-konkep.png": "/portofolio/static/media/siap-konkep.c0c7dc185d5722efab82.png",
     "static/media/image-2.jpg": "/portofolio/static/media/image-2.d1ff635a064f70e25516.jpg",
     "static/media/sertifikat-8.jpg": "/portofolio/static/media/sertifikat-8.154f4f744d88277ddda3.jpg",
     "static/media/sertifikat-4.jpg": "/portofolio/static/media/sertifikat-4.3414a249e8888c49a435.jpg",
@@ -16,17 +19,19 @@
     "static/media/sertifikat-6.jpg": "/portofolio/static/media/sertifikat-6.c090bed351a4ae7bd729.jpg",
     "static/media/sertifikat-5.jpg": "/portofolio/static/media/sertifikat-5.f677cf432f623b092cf3.jpg",
     "static/media/sertifikat-1.jpg": "/portofolio/static/media/sertifikat-1.d28d9fa756c58adca003.jpg",
+    "static/media/Code Generations and Optimization - Muh Arsyad Ramsi_page-0001.jpg": "/portofolio/static/media/Code Generations and Optimization - Muh Arsyad Ramsi_page-0001.6d8def8665d555e1e078.jpg",
+    "static/media/Sertificate Gemini Student_page-0001.jpg": "/portofolio/static/media/Sertificate Gemini Student_page-0001.dbabc7c79b8bf7ca018e.jpg",
     "static/media/sertifikat-10.png": "/portofolio/static/media/sertifikat-10.602dc6913d82f6234aa4.png",
     "static/media/cvKerja.pdf": "/portofolio/static/media/cvKerja.04f1e38eb6f18edfd3c8.pdf",
     "static/media/sertifikat-9.jpg": "/portofolio/static/media/sertifikat-9.2e89f64a9c3add08a20e.jpg",
     "static/media/profile.jpeg": "/portofolio/static/media/profile.32639c865a7b673de367.jpeg",
     "index.html": "/portofolio/index.html",
-    "main.dd68a3a7.css.map": "/portofolio/static/css/main.dd68a3a7.css.map",
-    "main.c8a2b9b3.js.map": "/portofolio/static/js/main.c8a2b9b3.js.map",
+    "main.57537334.css.map": "/portofolio/static/css/main.57537334.css.map",
+    "main.c33ad82a.js.map": "/portofolio/static/js/main.c33ad82a.js.map",
     "453.86b2f617.chunk.js.map": "/portofolio/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd68a3a7.css",
-    "static/js/main.c8a2b9b3.js"
+    "static/css/main.57537334.css",
+    "static/js/main.c33ad82a.js"
   ]
 }
