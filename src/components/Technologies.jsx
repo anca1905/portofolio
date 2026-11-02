@@ -7,8 +7,8 @@ import { TbBrandVscode } from "react-icons/tb";
 
 const Technologies = () => {
   return (
-    <div className="border-slate-800 border-b max-w-xs md:max-w-md lg:max-w-5xl mx-auto my-2 pb-10">
-      <h1 className="text-2xl text-center font-light my-4 tracking-wide">
+    <div className="border-slate-200 dark:border-slate-800 border-b max-w-xs md:max-w-md lg:max-w-5xl mx-auto my-2 pb-10">
+      <h1 className="text-2xl text-center font-light my-4 tracking-wide text-slate-900 dark:text-white">
         Technologies
       </h1>
       <div className="flex gap-3 flex-wrap mx-auto justify-center mt-3 items-center">
@@ -38,14 +38,14 @@ const Technologies = () => {
 
         {/* Tools */}
         <TbBrandVscode className="text-4xl text-blue-500" />
-        <FaGithub className="text-4xl text-white" />
+        <FaGithub className="text-4xl text-slate-800 dark:text-white" />
         <FaGitAlt className="text-4xl text-orange-500" />
-        <SiNotion className="text-4xl text-white" />
+        <SiNotion className="text-4xl text-slate-800 dark:text-white" />
         <SiFigma className="text-4xl text-pink-500" />
 
         {/* Others */}
         <SiArduino className="text-4xl text-green-500" />
-        <FaUnity className="text-4xl text-gray-300" />
+        <FaUnity className="text-4xl text-slate-700 dark:text-gray-300" />
       </div>
     </div>
   );

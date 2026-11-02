@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 body {
-  color: white;
   font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+html.dark body {
+  color: #f8fafc;
+  background-color: #0a0a0a;
+}
+
+html:not(.dark) body {
+  color: #0f172a;
+  background-color: #f8fafc;
 }
 
 html {
   scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

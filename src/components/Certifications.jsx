@@ -5,9 +5,8 @@ import CertificateCard from "./CertificateCard";
 import ModalCertifications from "./ModalCertifications";
 
 // --- IMPORT GAMBAR BARU ---
-// Pastikan nama file sesuai dengan yang ada di folder images kamu
-import sertifikatGemini from "../images/certificate/Sertificate Gemini Student_page-0001.jpg"; // Ganti nama filenya
-import sertifikatIBM from "../images/certificate/Code Generations and Optimization - Muh Arsyad Ramsi_page-0001.jpg";       // Ganti nama filenya
+import sertifikatGemini from "../images/certificate/Sertificate Gemini Student_page-0001.jpg";
+import sertifikatIBM from "../images/certificate/Code Generations and Optimization - Muh Arsyad Ramsi_page-0001.jpg";
 
 // Import gambar lama
 import sertifikat1 from "../images/certificate/sertifikat-1.jpg";
@@ -22,24 +21,22 @@ import sertifikat9 from "../images/certificate/sertifikat-9.jpg";
 import sertifikat10 from "../images/certificate/sertifikat-10.png";
 
 const certificationsData = [
-    // --- TAMBAHAN BARU (Ditaruh paling atas agar muncul duluan) ---
     {
-        id: 101, // ID unik baru
+        id: 101,
         title: "Gemini Certified Student",
         issuer: "Google for Education",
         date: "Oct 2025",
         img: sertifikatGemini,
-        link: "#" // Masukkan link kredensial jika ada
+        link: "#"
     },
     {
-        id: 102, // ID unik baru
+        id: 102,
         title: "Code Generations and Optimization",
         issuer: "IBM SkillsBuild & Hacktiv8",
         date: "Oct 2025",
         img: sertifikatIBM,
         link: "#"
     },
-    // --- DATA LAMA ---
     { id: 1, title: "Sertifikasi Belajar Dasar AI", issuer: "Coursera Dicoding", date: "Feb 2025", img: sertifikat1, link: "https://www.coursera.org/verify/xxxx" },
     { id: 2, title: "Belajar Dasar SQL", issuer: "Coursera Dicoding", date: "Feb 2025", img: sertifikat2, link: "https://www.freecodecamp.org/certification/xxxx" },
     { id: 3, title: "Belajar Dasar Git dengan GitHub", issuer: "Coursera Dicoding", date: "Feb 2025", img: sertifikat3, link: "https://www.udemy.com/certificate/xxxx" },
@@ -57,13 +54,12 @@ const Certifications = () => {
     const featuredCertifications = certificationsData.slice(0, 4);
 
     return (
-        <section id="certifications" className="py-20 px-4 max-w-5xl mx-auto border-b border-slate-800">
-            <div className="container mx-auto"> {/* Tambahkan Container agar rapi */}
-                <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-white">
+        <section id="certifications" className="py-20 px-4 max-w-5xl mx-auto border-b border-slate-200 dark:border-slate-800">
+            <div className="container mx-auto">
+                <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-slate-900 dark:text-white">
                     Sertifikasi & Penghargaan
                 </h2>
 
-                {/* Gunakan grid gap-6 atau gap-8 agar tidak dempet */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {featuredCertifications.map((cert) => (
                         <CertificateCard
@@ -76,12 +72,11 @@ const Certifications = () => {
                     ))}
                 </div>
 
-                {/* Tombol Modal */}
                 {certificationsData.length > 4 && (
                     <div className="text-center mt-12">
                         <button
                             onClick={() => setIsModalOpen(true)}
-                            className="btn px-8 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-600 transition-all shadow-lg"
+                            className="btn px-8 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-600 transition-all shadow-lg border-none"
                         >
                             Lihat Semua ({certificationsData.length})
                         </button>
@@ -98,4 +93,5 @@ const Certifications = () => {
         </section>
     );
 };
+
 export default Certifications;

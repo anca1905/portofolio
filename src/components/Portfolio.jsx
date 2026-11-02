@@ -27,9 +27,9 @@ const Portfolio = () => {
     <div
       data-aos="fade-up"
       data-aos-duration="2000"
-      className=" border-slate-800 border-b max-w-xs md:max-w-md lg:max-w-5xl mx-auto pb-10"
+      className="border-slate-200 dark:border-slate-800 border-b max-w-xs md:max-w-md lg:max-w-5xl mx-auto pb-10"
     >
-      <h1 className="text-2xl text-center font-light my-4 tracking-wide ">
+      <h1 className="text-2xl text-center font-light my-4 tracking-wide text-slate-900 dark:text-white">
         Portfolio
       </h1>
       <div className="flex flex-wrap md:gap-5">
