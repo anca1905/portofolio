@@ -2,13 +2,14 @@ import React, { useEffect } from "react";
 import projectMaxcell from "../images/portofolio/maxcell.png"; // Ganti nama file 6.png jadi maxcell.png
 import projectSiap from "../images/portofolio/siap-konkep.png"; // Ganti nama file 7.png jadi siap-konkep.png
 import projectSimadun from "../images/portofolio/simadun.png";
+import projectAquiris from "../images/portofolio/aquiris.png";
 import portofolio from "../images/portofolio/portofolio.png";
 import javalearn from "../images/portofolio/javalearn.png";
 import absensi from "../images/portofolio/absensi.png";
 import Card from "./Card";
 import { TiHtml5 } from "react-icons/ti";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiJavascript, SiMysql, SiCodeigniter } from "react-icons/si";
+import { SiJavascript, SiCodeigniter } from "react-icons/si";
 import { FaReact, FaPhp, FaBootstrap, FaLaravel, FaJs, FaCss3Alt } from "react-icons/fa";
 // import { FaPhp } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -81,6 +82,21 @@ const Portfolio = () => {
           classnameIconB={"hidden"}
           link={"https://simadun-konasara.projectkoding.com/"}
         // link_github={"#"}
+        />
+
+        {/* PROJECT 4: AQUIRIS PRINT */}
+        <Card
+          img={projectAquiris}
+          title={"Aquiris Print"}
+          description={
+            "Developed a digital printing and acrylic rental web platform. Features online document ordering, file uploads, real-time order tracking, and print service management."
+          }
+          icon={<TiHtml5 className="text-orange-500 text-2xl" />}
+          icon_2={<FaCss3Alt className="text-blue-500 text-2xl" />}
+          icon_3={<FaJs className="text-yellow-400 text-2xl" />}
+          icon_4={<FaPhp className="text-indigo-500 text-2xl" />}
+          icon_5={<GrMysql className="text-blue-500 text-2xl" />}
+          link={"https://aquiris.skillance.cloud/"}
         />
 
         <Card

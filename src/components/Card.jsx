@@ -5,10 +5,10 @@ import { FaEye, FaGithub } from "react-icons/fa";
 const Card = (props) => {
   const {
     img,
-    classname,
-    classnameIcon,
-    classnameIconB,
-    classnameIconT,
+    classname = "",
+    classnameIcon = "",
+    classnameIconB = "",
+    classnameIconT = "",
     title,
     description = "Description",
     link = "/",
@@ -24,7 +24,7 @@ const Card = (props) => {
       className={`card card-compact bg-base-100 w-72 my-2 ${classname} mx-auto shadow-xl`}
     >
       <figure>
-        <img src={img} zxalt="Shoes" />
+        <img src={img} alt={title || "Project preview"} />
       </figure>
       <div className="relative card-body bg-neutral-900 h-full">
         <h2 className="card-title text-2xl">{title}</h2>
